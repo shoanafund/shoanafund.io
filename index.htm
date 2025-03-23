@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoana Fund</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+            color: #4A4A4A;
+        }
+
+        /* Navbar */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: ghostwhite;
+            padding: 15px 50px;
+        }
+        .navbar img {
+            height: 100px;
+            margin-left: 100px;
+        }
+        .nav-links {
+            display: flex;
+            gap: 30px;
+            margin-right: 105px;
+        }
+        .nav-links a {
+            text-decoration: none;
+            color: #333;
+            font-size: 17px;
+        }
+
+        /* Hero Section */
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 40px 50px;
+            background-color: white;
+            margin-left: 100px;
+        }
+        .hero-text {
+            width: 85%;
+            font-size: 17px;
+        }
+        .hero img {
+            max-width: 45%;
+            height: auto;
+            align-self: flex-start;
+            margin-left: 30px;
+        }
+        .hero-text img {
+            display: block;
+            width: 600px;
+            max-width: 60%; /* Ensure it scales down on small screens */
+            margin-left: 0;
+            margin-top: 20px;
+        }
+
+        /* Footer */
+        .footer {
+            background: #1a9b8b;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 1024px) {
+            .navbar {
+                padding: 15px 20px;
+            }
+            .navbar img {
+                height: 80px;
+                margin-left: 20px;
+            }
+            .nav-links {
+                margin-right: 20px;
+                gap: 20px;
+            }
+            .nav-links a {
+                font-size: 16px;
+            }
+            .hero {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                margin-left: 0;
+                padding: 20px;
+            }
+            .hero-text {
+                width: 100%;
+                font-size: 16px;
+            }
+            .hero img {
+                max-width: 100%;
+                margin-left: 0;
+                margin-top: 20px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .navbar {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+            .navbar img {
+                height: 70px;
+                margin-left: 0;
+            }
+            .nav-links {
+                flex-direction: column;
+                align-items: center;
+                margin-right: 0;
+                gap: 15px;
+            }
+            .hero {
+                padding: 20px;
+            }
+            .hero-text {
+                font-size: 15px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero-text img {
+                display: block;
+                width: 250px; /* Bigger image */
+                margin-left: 0; /* Align with text margin */
+                margin-top: 20px;
+            }
+            .nav-links a {
+                font-size: 14px;
+            }
+            .hero-text {
+                font-size: 14px;
+            }
+
+            /* Footer */
+            .footer {
+                background: #1a9b8b;
+                color: white;
+                text-align: center;
+                padding: 20px;
+            }
+            .footer a {
+                color: white;
+                text-decoration: none;
+                margin: 0 10px;
+                font-size: 14px; /* Default size */
+            }
+
+            /* Responsive Footer Links */
+            @media (max-width: 600px) {
+                .footer a {
+                    font-size: 10px; /* Smaller font size on small screens */
+                }
+            }
+
+
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar">
+    <a href="#"><img src="ShoanaFund.png" alt="Logo"></a>
+    <div class="nav-links">
+        <a href="Shoana_Fund_Whitepaper.pdf" target="_blank">Whitepaper</a>
+        <a href="mailto:hello@shoanafund.io">Contact</a>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero">
+    <div class="hero-text">
+        <p><h1><span class="auto-input"></span></h1></p>
+        <p>Shoana Fund is a next-generation blockchain-powered, decentralised financial ecosystem designed to help individuals and businesses save, invest, and grow their wealth securely. Built on the Polygon Layer 2 network, Shoana Fund leverages tokenized savings plans to provide users with stable, long-term financial solutions that are transparent, automated, and accessible to everyone.</p>
+        <p>At the heart of our ecosystem is Shoana Fund Token (SHOAN), the digital asset that powers all transactions within Shoana Fund. Users can allocate their SHOAN tokens into specialized savings plans, each tailored to specific financial goals—whether it’s education, homeownership, retirement, health, or business expansion.</p>
+
+        <p><b><i>Why Choose Shoana Fund?</i></b></p>
+
+        <p>✅ Decentralized & Secure – Your funds are stored on-chain, eliminating middlemen and ensuring full transparency.</p>
+        <p>✅ Automated Growth – Earn rewards through structured savings plans with dynamic interest rates.</p>
+        <p>✅ Flexible & Scalable – Choose from multiple savings categories based on your financial needs.</p>
+        <p>✅ Easy Accessibility – Anyone can participate, from individuals to businesses, without complex paperwork.</p>
+        <p>✅ Community-Driven – Shoana Token holders have a say in key ecosystem decisions.</p>
+
+        <p>Shoana Fund is more than just a savings platform—it’s a financial movement that empowers users to build lasting wealth in a secure, decentralized way.</p>
+
+        <br>
+        <p>Contact us to join the future of smart savings today!</p>
+        <br>
+        <p>Warm Regards,</p>
+        <p>The Shoana Capital Team</p>
+
+        <!-- Aligned with text margin & made bigger -->
+        <img src="ShoanaCapital.png" alt="Shoana Logo">
+    </div>
+    <img src="hero.png" alt="Hero Image">
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <a href="Privacy.htm">Privacy Policy</a> |
+    <a href="Terms.htm">Terms of Service</a> |
+    <a href="https://www.linkedin.com/in/shoana-capital-94454b357/" target="_blank">About</a>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+    var typed = new Typed(".auto-input", {
+        strings: ["Introducing the Shoana Fund", "Your Gateway to Smart", "Decentralized Savings", "Start your savings journey today!"]
+    })
+</script>
+
+</body>
+</html>
